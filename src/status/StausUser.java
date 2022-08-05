@@ -16,10 +16,10 @@ public class StausUser
     private STATUS status;
     public void statusDetail()
 {
-System.out.println(status.values()[0]);
-System.out.println(status.values()[1]);
-System.out.println(status.values()[2]);
-System.out.println(status.values()[3]);
+System.out.println(status.values()[0] +  " : Rejected ");
+System.out.println(status.values()[1] + " : pending");
+System.out.println(status.values()[2] + " : processing");
+System.out.println(status.values()[3] + " : approved ");
 }
     
 }
